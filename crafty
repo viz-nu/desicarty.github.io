@@ -1,0 +1,578 @@
+# desicarty.github.io
+<!doctype html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/themify-icons.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+    <title>desicart</title>
+    <style>
+      h1{
+        font-family:helvetica;
+        color: white;
+      }
+       .tagline{
+        color:black;
+       }
+    </style>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="top-header">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <span>Phone: +91 9059164654</span>
+              <span>email: mohitraokampati@gmail.com</span>
+            </div>
+            <div class="col text-right">
+              <span>gift card</span>
+              <span>track order</span>
+              <div class="lang d-inline-flex">
+                <span>language </span>
+                <ul class="lang-dropdown">
+                    <li>hindi</li>
+                    <li>english</li>
+                    <li>telugu</li>
+                    <li>tamil</li>
+                    <li>malayalam</li>
+                    <li>kannada</li>
+                </ul
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+      <div class="container">
+        <nav class="navbar">
+          <a href="home-01.html" class="logo">
+            <img src="images/logo.png" alt="">
+          </a>
+          <a href="javascript:void(0);" id="mobile-menu-toggler">
+            <i class="ti-align-justify"></i>
+          </a>
+          <ul class="navbar-nav">    
+            <li class="current-menu-item has-menu-child">
+              <a href="#">Home</a>
+              <ul class="sub-menu">
+                <li><a href="home-01.html">community</a></li>
+                <li><a href="home-02.html">customize</a></li>
+                <li><a href="home-03.html">market</a></li>
+              </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+          <div class="d-inline-flex align-items-center">
+            <a href="#" class="search-icon icon">
+              
+              <i class="ti-search"></i>
+            </a>
+            <a href="#" class="cart-bag icon">
+              
+              <i class="ti-shopping-cart"></i>
+              <span class="itemCount">0</span>
+            </a>
+            <a href="#" class="wishlist icon">
+              <i class="ti-heart"></i>
+              <span class="itemCount">09</span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="banner" style="background-image: url(images/bg-1.jpg)">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-1 order-md-0">
+            <div class="banner-content">
+              <span class="tagline"><br><br><strong>Handmade collection</strong></span>
+              <h1><strong>FROM<br>COUNTRY SIDE <br>TO<br>ENTIRE COUNTRY</strong></h1>
+              <a href="login3.html" class="btn-default">Login<br></a>
+            </div>
+          </div>
+          
+        </div>        
+      </div>
+    </section>
+
+    <section class="feat-product">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="sec-heading">
+              <h3 class="sec-title">Featured product</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="product-item">
+              <figure class="product-thumb">
+                <img src="images/products/1.jpg" alt="">
+                <div class="action-links">
+                  <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                  <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                  <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+                </div>
+              </figure>
+              <div class="product-content">
+                <h5 class="product-name"><a href="#">Pochampalli-Works</a></h5>
+                <div class="ratings">
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                </div>
+                <p class="price">₹350</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="product-item">
+              <figure class="product-thumb">
+                <img src="images/products/2.jpg" alt="">
+                <div class="action-links">
+                  <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                  <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                  <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+                </div>
+              </figure>
+              <div class="product-content">
+                <h5 class="product-name"><a href="#">Handicrafts</a></h5>
+                <div class="ratings">
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                </div>
+                <p class="price">₹400</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="product-item">
+              <figure class="product-thumb">
+                <img src="images/products/3.jpg" alt="">
+                <div class="action-links">
+                  <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                  <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                  <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+                </div>
+              </figure>
+              <div class="product-content">
+                <h5 class="product-name"><a href="#">Alteration</a></h5>
+                <div class="ratings">
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                </div>
+                <p class="price">Starting at ₹50</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <section class="banner02">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="banner-content">
+              <h1>50% off</h1>
+              <h4>ON FESTIVE SEASON SALE</h4>
+              <a href="signup.html" class="btn-default">Signup</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="ban-img">
+              <img src="images/ban-2.png" alt="">
+            </div>
+          </div>
+        </div>        
+      </div>
+    </section>
+    
+    <section class="popular-products">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="sec-heading">
+              <h3 class="sec-title">Most popular</h3>
+            </div>
+          </div>
+        </div>
+        <div class="product-carousel owl-carousel">
+          <div class="product-item">
+            <figure class="product-thumb">
+              <img src="images/products/4.jpg" alt="">
+              <div class="action-links">
+                <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+              </div>
+            </figure>
+            <div class="product-content">
+              <h5 class="product-name"><a href="#">Puppets(kathputli)</a></h5>
+              <div class="ratings">
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+              </div>
+              <p class="price">starting at ₹99</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <figure class="product-thumb">
+              <img src="images/products/5.jpg" alt="">
+              <div class="action-links">
+                <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+              </div>
+            </figure>
+            <div class="product-content">
+              <h5 class="product-name"><a href="#">Custom-Native-Art</a></h5>
+              <div class="ratings">
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+              </div>
+              <p class="price">starting at ₹199</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <figure class="product-thumb">
+              <img src="images/products/6.jpg" alt="">
+              <div class="action-links">
+                <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+              </div>
+            </figure>
+            <div class="product-content">
+              <h5 class="product-name"><a href="#">Native Pot Painting</a></h5>
+              <div class="ratings">
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+              </div>
+              <p class="price">starting at ₹150</p>
+            </div>
+          </div>          
+          <div class="product-item">
+            <figure class="product-thumb">
+              <img src="images/products/7.jpg" alt="">
+              <div class="action-links">
+                <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+              </div>
+            </figure>
+            <div class="product-content">
+              <h5 class="product-name"><a href="#">Native Hand-made Toys</a></h5>
+              <div class="ratings">
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+              </div>
+              <p class="price">Starting at ₹20</p>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </section>
+    
+    <section class="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="featureBox">
+              <img src="images/feature-icons/1.png" alt="Cash" class="feat-icon">
+              <h5>Money back gurantee</h5>
+              <p>Great fill signs he evening</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="featureBox">
+              <img src="images/feature-icons/2.png" alt="Delivery" class="feat-icon">
+              <h5>Free Delivery</h5>
+              <p>Great fill signs he evening</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="featureBox">
+              <img src="images/feature-icons/3.png" alt="Support" class="feat-icon">
+              <h5>Alway support</h5>
+              <p>Great fill signs he evening</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="featureBox">
+              <img src="images/feature-icons/4.png" alt="Secure payment" class="feat-icon">
+              <h5>Secure payment</h5>
+              <p>Great fill signs he evening</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="trending-products">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="sec-heading">
+              <h3 class="sec-title">Trending products</h3>
+            </div>
+          </div>
+        </div>          
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="product-item">
+              <figure class="product-thumb">
+                <img src="images/products/8.jpg" alt="">
+                <div class="action-links">
+                  <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                  <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                  <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+                </div>
+              </figure>
+              <div class="product-content">
+                <h5 class="product-name"><a href="#"> handcrafted puppets</a></h5>
+                <div class="ratings">
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                </div>
+                <p class="price">starting ₹99</p>
+              </div>
+            </div>  
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="product-item">
+              <figure class="product-thumb">
+                <img src="images/products/9.jpg" alt="">
+                <div class="action-links">
+                  <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                  <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                  <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+                </div>
+              </figure>
+              <div class="product-content">
+                <h5 class="product-name"><a href="#">designed pottery</a></h5>
+                <div class="ratings">
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                </div>
+                <p class="price">starting at ₹99</p>
+              </div>
+            </div>  
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="product-item">
+              <figure class="product-thumb">
+                <img src="images/products/10.jpg" alt="">
+                <div class="action-links">
+                  <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                  <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                  <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+                </div>
+              </figure>
+              <div class="product-content">
+                <h5 class="product-name"><a href="#">hand made handbags</a></h5>
+                <div class="ratings">
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                </div>
+                <p class="price">strating at ₹89</p>
+              </div>
+            </div>  
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="product-item">
+              <figure class="product-thumb">
+                <img src="images/products/11.jpg" alt="">
+                <div class="action-links">
+                  <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                  <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                  <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+                </div>
+              </figure>
+              <div class="product-content">
+                <h5 class="product-name"><a href="#">hand made handbags</a></h5>
+                <div class="ratings">
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                </div>
+                <p class="price">strating at ₹89</p>
+              </div>
+            </div>  
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="product-item">
+              <figure class="product-thumb">
+                <img src="images/products/12.jpg" alt="">
+                <div class="action-links">
+                  <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                  <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                  <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+                </div>
+              </figure>
+              <div class="product-content">
+                <h5 class="product-name"><a href="#">Custom made Bobble-Head Toys</a></h5>
+                <div class="ratings">
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                </div>
+                <p class="price">strating at ₹99</p>
+              </div>
+            </div>  
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="product-item">
+              <figure class="product-thumb">
+                <img src="images/products/13.jpg" alt="">
+                <div class="action-links">
+                  <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                  <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                  <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+                </div>
+              </figure>
+              <div class="product-content">
+                <h5 class="product-name"><a href="#">Wooden Toys</a></h5>
+                <div class="ratings">
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                </div>
+                <p class="price">strating at ₹99</p>
+              </div>
+            </div>  
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="product-item">
+              <figure class="product-thumb">
+                <img src="images/products/14.jpg" alt="">
+                <div class="action-links">
+                  <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                  <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                  <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+                </div>
+              </figure>
+              <div class="product-content">
+                <h5 class="product-name"><a href="#">Custom made Bobble-Head Toys</a></h5>
+                <div class="ratings">
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                </div>
+                <p class="price">strating at ₹99</p>
+              </div>
+            </div>  
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="product-item">
+              <figure class="product-thumb">
+                <img src="images/products/15.jpg" alt="">
+                <div class="action-links">
+                  <a href="#" class="quick-view icon"><i class="ti-eye"></i></a>
+                  <a href="#" class="wishlist icon"><i class="ti-heart"></i></a>
+                  <a href="#" class="add-cart icon"><i class="ti-shopping-cart"></i></a>
+                </div>
+              </figure>
+              <div class="product-content">
+                <h5 class="product-name"><a href="#">customized decoratives</a></h5>
+                <div class="ratings">
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                  <a href="#"><i class="ti-star"></i></a>
+                </div>
+                <p class="price">strating at ₹35</p>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+   
+
+    
+    <footer class="footer">
+      <div class="container foo-top">
+        <div class="row">
+          <div class="col-md-2 col-sm-6">
+            <div class="widget widget-navigation">
+              <h4 class="widget-title">About us</h4>
+              <p>Team desicarts work for providing a comfortable platform
+              for self-employed artisians in sub urban areas.We also promote small
+            scale business to trade online to reach many customers at far off places.</p>
+            </div>
+          </div>
+              
+            <div class="widget widget-social">
+              <h4 class="widget-title">Online shopping</h4>
+              <div class="social-media">
+                <a href="#"><i class="ti-facebook"></i></a><a href="#"><i class="ti-twitter-alt"></i></a><a href="#"><i class="ti-pinterest"></i></a><a href="#"><i class="ti-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+   
+    
+  
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
